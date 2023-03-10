@@ -6,8 +6,6 @@
 .nav{
     padding-left: 5%;
     
-    
-    
 }
 .pro{
     margin: 20px 40px;
@@ -23,6 +21,7 @@
     flex: 1px;
     padding-left: 1px;
     display: flex;
+    gap: 200px;
 }
 
 .form{
@@ -50,22 +49,23 @@ img{
     display: flex;
     }
     .cont{
-        padding:30%px;
-        margin:20%;
-        border:10px black;
-        background-color:black;
+        
         color: aliceblue;
         font-size: 30px;
+        background-color: black;
         }
     
     .heading{
         font-weight: 10px;
         color: aliceblue;
+        padding-left: 400px;
     }
     .cont2{
         display: flex;
         height: 600px;
         width: 500px;
+        margin-left: 20%;
+        margin-top: 150px;
        }
        .fun5 img{
         height: 400px;
@@ -77,19 +77,38 @@ img{
         .cont4{
             display: flex;
         }
+        .magazine{
+        text-align: center;
+        margin-left: 12%;
+        }
+        .fun8 img{
+            height: 400px;
+            width:600px;
+
+        }
         .fom{
             display: flex;
-           
-           
-        }
-        ul,
-        li{
+            justify-self: space-between;
+            color: antiquewhite;
             background-color: black;
-            color: rgb(243, 236, 236);
-           display: flex;
-           margin: 20px;
+           }
+           .main{
+            text-align: center;
+            padding: 15px;
             
-        }
+            
+           }
+        
+        .ul,li{
+            background-color: black;
+            color: rgb(241, 232, 232);
+           display: flex;
+           padding: 15px;
+           
+            }
+           
+                
+
 
        
         
